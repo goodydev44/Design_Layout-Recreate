@@ -1,0 +1,65 @@
+import React from 'react'
+import Logo from './Logo'
+import {
+  FaFacebookSquare,
+  FaYoutube,
+  FaTwitter,
+  FaPinterest,
+  FaInstagram,
+  FaRegCopyright
+} from 'react-icons/fa'
+
+const Footer: React.FC = () => {
+  const copyright = <FaRegCopyright className='inline' />
+  return (
+    <footer>
+      <div className='flex justify-evenly bg-customOrange px-5 py-10'>
+        <h2 className='text-white text-3xl font-bold'>
+          Simplify how your team works today
+        </h2>
+        <button className='bt-style2'>Get Started</button>
+      </div>
+
+      <div
+        className='flex contain-style1 py-10 bg-[#1d1d25] text-white
+                xs:flex-col md:flex-row gap-8 xs:justify-center md:justify-evenly'
+      >
+        <div className='manageLogo xs:ml-20 md:ml-0'>
+          <Logo />
+          <h3 className='manage text-3xl font-bold'>manage</h3>
+        </div>
+
+        <nav className='flex text-sm gap-x-12 gap-y-2 justify-center'>
+          <ul className='flex flex-col gap-y-1.5'>
+            <li className='cursor-pointer'>Home</li>
+            <li className='cursor-pointer'>Pricing</li>
+            <li className='cursor-pointer'>Product</li>
+            <li className='cursor-pointer'>About</li>
+          </ul>
+          <ul className='flex flex-col gap-y-1.5'>
+            <li className='cursor-pointer'>Careers</li>
+            <li className='cursor-pointer'>Community</li>
+            <li className='cursor-pointer'>Privacy Policy</li>
+          </ul>
+        </nav>
+
+        <div>
+          <div className='flex gap-3 justify-center'>
+            <input className='input-style1' type="text" placeholder='Update in your inbox' />
+            <button className='bt-style1'>Go</button>
+          </div>
+          <p className='text-sm mt-14 text-center'>Copyright {copyright} 2022, All Rights reserved</p>
+        </div>
+      </div>
+      <div className='contain-style1 flex gap-4 bg-[#1d1d25] pb-9'>
+        <FaFacebookSquare className='icon-style' />
+        <FaYoutube className='icon-style' />
+        <FaTwitter className='icon-style' />
+        <FaPinterest className='icon-style' />
+        <FaInstagram className='icon-style' />
+      </div>
+    </footer>
+  )
+}
+
+export default Footer

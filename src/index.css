@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-gray-200
+    }
+    .Main-styles {
+        @apply mt-14
+    }
+    .contain-style1 {
+        @apply xs:px-[17px] md:px-10 lg:px-20 xl:px-40
+    }
+    .list-styles1 {
+        @apply px-3 py-1 cursor-pointer rounded-full hover:bg-gray-300 transition duration-[200ms]
+    }
+    .Img-style-1 {
+        @apply h-[150px] rounded-lg
+    }
+    .num-style1 {
+        @apply bg-customOrange rounded-full inline px-3.5 py-1 max-h-8 text-white
+                mr-7
+    }
+    .title-style1 {
+        @apply text-lg font-bold
+    }
+    .prg-style1 {
+        @apply text-sm text-gray-400 mt-4
+    }
+    .bt-style1 {
+        @apply bg-customOrange hover:bg-[#c83c16] transition duration-200 px-[23px] py-1.5 rounded-full text-[17px] text-white
+    }
+    .bt-style2 {
+        @apply bg-white hover:bg-slate-200 transition duration-200 px-[23px] py-1.5 rounded-full text-[17px] text-customOrange
+    }
+    .input-style1 {
+        @apply bg-white px-[23px] py-1.5 rounded-full text-[17px] text-black text-center outline-none
+    }
+    .icon-style {
+        @apply text-base text-white cursor-pointer
+    }
+    .dot {
+        @apply h-[9px] w-[9px] bg-gray-400 rounded-full
+    }
+    .logo {
+        @apply flex gap-1.5
+    }
+    .manageLogo {
+        @apply flex items-center
+    }
+    .manage {
+        @apply text-current ml-2.5
+    }
+}
