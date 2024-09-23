@@ -5,7 +5,7 @@ const Section1: React.FC = () => {
     <section className='contain-style1 flex justify-evenly gap-9 mt-24'>
       <div className='p-2.5 max-w-[50%]'>
         <h1 className='text-4xl font-bold mb-7'>
-          Bring everyone together to build better products
+          Bring everyone together to build a better product
         </h1>
         <p className='prg-style1 mb-7'>
           Manage makes it simple for software teams to plan day-to-day tasks
