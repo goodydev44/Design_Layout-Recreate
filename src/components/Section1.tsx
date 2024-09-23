@@ -19,9 +19,9 @@ const Section1: React.FC = () => {
       <div className='p-2.5 min-w-[50%]'>
 
         <div className='grid grid-cols-2 gap-4'>
-          <img src="./src/assets/Images/Page-Img1.png"
+          <img src="./src/assets/Images/Page-Img1.jpg"
             className='Img-style-1' />
-          <img src="./src/assets/Images/Page-Img2.png"
+          <img src="./src/assets/Images/Page-Img2.jpg"
             className='Img-style-1' />
           <div className='relative gap-3 h-[150px] w-[165px] bg-[#ffffff] mx-[50%] p-2.5
                           rounded-lg'>
