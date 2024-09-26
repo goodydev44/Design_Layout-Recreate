@@ -11,7 +11,7 @@ const Comments: React.FC<Props> = (props) => {
     <div className="text-center">
       <img
         className="inline h-[70px] w-[70px] rounded-full my-5"
-        src={`../../src/assets/Images/PageImg-${props.id}.jpg`}
+        src={`/public/Images/PageImg-${props.id}.jpg`}
       />
       <h4 className="title-style1">{props.name}</h4>
       <p className="prg-style1">{props.description}</p>
