@@ -1,4 +1,6 @@
 import React from 'react'
+import Img1 from '../assets/Images/Page-Img1.jpg'
+import Img2 from '../assets/Images/Page-Img2.jpg'
 
 const Section1: React.FC = () => {
   return (
@@ -19,9 +21,9 @@ const Section1: React.FC = () => {
       <div className='p-2.5 min-w-[50%]'>
 
         <div className='grid grid-cols-2 gap-4'>
-          <img src="./src/assets/Images/Page-Img1.jpg"
+          <img src={Img1}
             className='Img-style-1' />
-          <img src="./src/assets/Images/Page-Img2.jpg"
+          <img src={Img2}
             className='Img-style-1' />
           <div className='relative gap-3 h-[150px] w-[165px] bg-[#ffffff] mx-[50%] p-2.5
                           rounded-lg'>
