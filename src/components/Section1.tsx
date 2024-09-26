@@ -1,6 +1,7 @@
 import React from 'react'
 import Img1 from '../assets/Images/Page-Img1.jpg'
 import Img2 from '../assets/Images/Page-Img2.jpg'
+
 const Section1: React.FC = () => {
   return (
     <section className='contain-style1 flex justify-evenly gap-9 mt-24'>
