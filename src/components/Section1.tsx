@@ -1,5 +1,7 @@
 import React from 'react'
 
+import img from "../assets/Images/Page-Img2.jpg";
+
 const Section1: React.FC = () => {
   return (
     <section className='contain-style1 flex justify-evenly gap-9 mt-24'>
@@ -21,8 +23,7 @@ const Section1: React.FC = () => {
         <div className='grid grid-cols-2 gap-4'>
           <img src="./src/assets/Images/Page-Img1.jpg"
             className='Img-style-1' />
-          <img src="./src/assets/Images/Page-Img2.jpg"
-            className='Img-style-1' />
+          <img src={img} className='Img-style-1' />
           <div className='relative gap-3 h-[150px] w-[165px] bg-[#ffffff] mx-[50%] p-2.5
                           rounded-lg'>
             <h3 className='absolute pt-4 text-2xl w-[140px] px-2 bg-[#f8f8f8]'>89.74%</h3>
