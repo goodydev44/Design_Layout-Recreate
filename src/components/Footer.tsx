@@ -13,8 +13,8 @@ const Footer: React.FC = () => {
   const copyright = <FaRegCopyright className='inline' />
   return (
     <footer>
-      <div className='flex justify-evenly bg-customOrange px-5 py-10'>
-        <h2 className='text-white text-3xl font-bold'>
+      <div className='flex mobile:flex-col md:flex-row justify-evenly bg-customOrange px-5 py-10'>
+        <h2 className='text-white text-3xl font-bold mobile:mb-5 md:mb-0'>
           Simplify how your team works today
         </h2>
         <button className='bt-style2'>Get Started</button>
@@ -22,9 +22,9 @@ const Footer: React.FC = () => {
 
       <div
         className='flex contain-style1 py-10 bg-[#1d1d25] text-white
-                xs:flex-col md:flex-row gap-8 xs:justify-center md:justify-evenly'
+                mobile:flex-col md2:flex-row gap-8 mobile:justify-center md2:justify-evenly'
       >
-        <div className='manageLogo xs:ml-20 md:ml-0'>
+        <div className='manageLogo mobile:ml-20 md2:ml-0'>
           <Logo />
           <h3 className='manage text-3xl font-bold'>manage</h3>
         </div>
@@ -51,7 +51,8 @@ const Footer: React.FC = () => {
           <p className='text-sm mt-14 text-center'>Copyright {copyright} 2022, All Rights reserved</p>
         </div>
       </div>
-      <div className='contain-style1 flex gap-4 bg-[#1d1d25] pb-9'>
+      <div className='contain-style1 flex bg-[#1d1d25] pt-3 pb-[27px] mobile:justify-center
+              sm:justify-start mobile:gap-[30px] sm:gap-10 sm:pl-20'>
         <FaFacebookSquare className='icon-style' />
         <FaYoutube className='icon-style' />
         <FaTwitter className='icon-style' />

@@ -20,17 +20,20 @@
     {
       "id": 1,
       "name": "Anisha Li",
-      "description": "Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated."
+      "description": "Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.",
+      "img": "../../public/Images"
     },
     {
       "id": 2,
       "name": "Ali Stone",
-      "description": "We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channes confusion and everyone is more focused."
+      "description": "We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channes confusion and everyone is more focused.",
+      "img": "../../public/Images"
     },
     {
       "id": 3,
       "name": "Richard Watson",
-      "description": "Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated."
+      "description": "Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.",
+      "img": "../../public/Images"
     }
   ]
 }

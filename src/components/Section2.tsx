@@ -17,8 +17,8 @@ const Section2: React.FC = () => {
   })
 
   return (
-    <section className='contain-style1 mt-20 flex gap-12'>
-      <div className='min-w-[40%]'>
+    <section className='contain-style1 mt-20 flex mobile:flex-col sm:flex-row gap-12'>
+      <div className='sm:min-w-[40%]'>
         <h2 className='text-3xl font-bold mb-7'>
           What's different about Manage?
         </h2>
@@ -28,7 +28,7 @@ const Section2: React.FC = () => {
           teams.
         </p>
       </div>
-      <div className='max-w-[50%]'>
+      <div className='sm:max-w-[50%]'>
         {differences}
       </div>
     </section>
