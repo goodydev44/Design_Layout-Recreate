@@ -4,15 +4,15 @@ type Props = {
     id: number,
     name: string,
     description: string,
-    imgPath: string
+    image: string
 }
 
-const Comments: React.FC<Props> = (props) => {
+const Comment: React.FC<Props> = (props) => {
   return (
     <div className="text-center">
       <img
         className="inline h-[70px] w-[70px] rounded-full my-5"
-        src={`${props.imgPath}PageImg-${props.id}.jpg`}
+        src={props.image}
       />
       <h4 className="title-style1">{props.name}</h4>
       <p className="prg-style1">{props.description}</p>
@@ -20,4 +20,4 @@ const Comments: React.FC<Props> = (props) => {
   );
 };
 
-export default Comments;
+export default Comment;

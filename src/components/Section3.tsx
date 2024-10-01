@@ -1,17 +1,22 @@
 import React from "react";
 import Data from "../assets/Data.json";
-import Comments from "./Comments";
+import Comment from "./Comment";
+import PageImg1 from '../assets/Images/PageImg-1.jpg';
+import PageImg2 from '../assets/Images/PageImg-2.jpg';
+import PageImg3 from '../assets/Images/PageImg-3.jpg';
+
 
 const Section3: React.FC = () => {
+  const images = [PageImg1, PageImg2, PageImg3]
 
   const comments = Data.listing2.map((c) => {
     return (
-      <Comments
+      <Comment
         key={c.id}
         id={c.id}
         name={c.name}
         description={c.description}
-        imgPath={c.img}
+        image={images[c.id - 1]}
       />
     );
   });
