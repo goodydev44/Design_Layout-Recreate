@@ -14,10 +14,10 @@ const Footer: React.FC = () => {
   return (
     <footer>
       <div className='flex mobile:flex-col md:flex-row justify-evenly bg-customOrange px-5 py-10'>
-        <h2 className='text-white text-3xl font-bold mobile:mb-5 md:mb-0'>
+        <h2 className='text-white text-3xl font-bold mobile:mb-5 md:mb-0 xs:text-center md:text-justify'>
           Simplify how your team works today
         </h2>
-        <button className='bt-style2'>Get Started</button>
+        <button className='bt-style2 xs:min-w-60 xs:max-w-60 md:min-w-0 xs:mx-auto md:mx-0'>Get Started</button>
       </div>
 
       <div

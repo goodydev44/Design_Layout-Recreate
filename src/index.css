@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
-  body {
-    @apply bg-gray-200;
-  }
   .Main-styles {
-    @apply mobile:mt-5 xs:mt-14;
+    /* background-image: url(./assets/Images/Page-Img2.jpg); */
+    @apply mobile:mt-5 xs:mt-14 bg-no-repeat;
   }
   .contain-style1 {
-    @apply mobile:px-[9px] xs:px-[17px] md:px-10 lg:px-20 xl:px-40;
+    @apply mobile:px-[9px] xs:px-[17px] md:px-10 lg:px-[85px] xl:px-40;
   }
   .list-styles1 {
     @apply px-3 py-1 cursor-pointer rounded-full hover:bg-gray-300 transition duration-[200ms] text-center;
@@ -27,11 +26,14 @@
   .prg-style1 {
     @apply text-sm text-gray-400 mt-4;
   }
+  .bt-style1, .bt-style2 {
+    @apply px-[25px] py-1.5 rounded-full text-[17px] transition duration-200
+  }
   .bt-style1 {
-    @apply bg-customOrange hover:bg-[#c83c16] transition duration-300 px-[23px] py-1.5 rounded-full text-[17px] text-white;
+    @apply bg-customOrange hover:bg-[#c83c16] text-white;
   }
   .bt-style2 {
-    @apply bg-white hover:bg-slate-300 transition duration-200 px-[23px] py-1.5 rounded-full text-[17px] text-customOrange;
+    @apply bg-white hover:bg-slate-300 text-customOrange;
   }
   .input-style1 {
     @apply bg-white px-[23px] py-1.5 rounded-full text-[17px] text-black text-center outline-none;
