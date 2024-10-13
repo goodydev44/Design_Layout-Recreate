@@ -4,12 +4,14 @@
 
 
 @layer base {
-  .Main-styles {
-    /* background-image: url(./assets/Images/Page-Img2.jpg); */
-    @apply mobile:mt-5 xs:mt-14 bg-no-repeat;
+  body {
+    background-image: url(./assets/Images/bg-tablet-pattern2.png);
+    background-size: 60%;
+    @apply bg-no-repeat mobile:bg-[right_-1%] xs:bg-[right_-5%] md:bg-[right_-11%]
+    lg:bg-[right_-21%] xl:bg-[right_-40%] 2xl:bg-[right_-60%] min-h-[100vh]
   }
   .contain-style1 {
-    @apply mobile:px-[9px] xs:px-[17px] md:px-10 lg:px-[85px] xl:px-40;
+    @apply mobile:px-[9px] xs:px-[17px] md:px-10 lg:px-[80px] xl:px-40;
   }
   .list-styles1 {
     @apply px-3 py-1 cursor-pointer rounded-full hover:bg-gray-300 transition duration-[200ms] text-center;
