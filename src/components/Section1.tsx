@@ -19,16 +19,16 @@ const Section1: React.FC = () => {
         </button>
       </div>
 
-      <div className='p-2.5 sm:min-w-[50%]'>
-        <div className='inline-grid grid-cols-2 gap-4'>
+      <div className='p-2.5 sm:min-w-[50%] sm:text-right'>
+        <div className='inline-grid grid-cols-2 gap-2.5'>
           <img src={Img1} className='Img-style-1' />
           <img src={Img2} className='Img-style-1' />
-          <div className='relative gap-3 h-[150px] w-[165px] bg-[#ffffff] mxx-[50%] p-2.5
-                          rounded-lg'>
-            <h3 className='absolute pt-4 text-2xl w-[140px] px-2 bg-[#f8f8f8]'>89.74%</h3>
+          <div className='relative gap-3 h-[150px] w-[165px] bg-[#ffffff] p-2.5
+                rounded-lg'>
+            <h3 className='absolute pt-[2.30rem] text-[25px] font-bold w-[140px] px-2 bg-[#f8f8f8]'>89.74%</h3>
             <div className='absolute grid grid-cols-2 mt-9 gap-2 bottom-3 '>
-              <div className='pt-6 pb-1 px-2.5 rounded-sm text-sm bg-customOrange text-white'>+1.5%</div>
-              <div className='pt-6 pb-1 px-2.5 rounded-sm text-sm bg-[#f8f8f8]'>88.24%</div>
+              <div className='pt-[25px] pb-1 px-2.5 rounded-sm text-sm bg-customOrange text-white'>+1.5%</div>
+              <div className='pt-[25px] pb-1 px-2.5 rounded-sm text-sm bg-[#f8f8f8]'>88.24%</div>
             </div>
           </div>
         </div>

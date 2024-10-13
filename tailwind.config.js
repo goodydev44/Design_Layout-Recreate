@@ -12,6 +12,7 @@ export default {
         sm2: "770px",
         md2: '840px',
         md3: "950px",
+        lg: "1075px",
         xl: "1200px",
       "2xl": "1400px",
       },
