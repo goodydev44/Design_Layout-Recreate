@@ -11,13 +11,13 @@
     lg:bg-[right_-21%] xl:bg-[right_-40%] 2xl:bg-[right_-60%] min-h-[100vh]
   }
   .contain-style1 {
-    @apply mobile:px-[9px] xs:px-[17px] md:px-10 lg:px-[80px] xl:px-40;
+    @apply mobile:px-[2%] xs:px-[2%] md:px-[4%] md3:px-[4%] lg:px-[9%] xl:px-[13%] 2xl:px-[18%];
   }
   .list-styles1 {
     @apply px-3 py-1 cursor-pointer rounded-full hover:bg-gray-300 transition duration-[200ms] text-center;
   }
   .Img-style-1 {
-    @apply h-[150px] rounded-lg;
+    @apply h-[150px] rounded-lg bg-[#1e13b8];
   }
   .num-style1 {
     @apply bg-customOrange rounded-full inline px-3.5 py-1 max-h-8 text-white mr-7;
@@ -26,10 +26,10 @@
     @apply text-lg font-bold;
   }
   .prg-style1 {
-    @apply text-sm text-gray-400 mt-4;
+    @apply text-sm text-gray-600 mt-4;
   }
   .bt-style1, .bt-style2 {
-    @apply px-[25px] py-1.5 rounded-full text-[17px] transition duration-200
+    @apply px-[30px] py-2 rounded-full text-[17px] transition duration-200
   }
   .bt-style1 {
     @apply bg-customOrange hover:bg-[#c83c16] text-white;
